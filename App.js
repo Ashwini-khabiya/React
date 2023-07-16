@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
-import Home from "./src/componrnt/Home";
-import About from "./src/componrnt/About";
-import Contact from "./src/componrnt/Contact";
-import Error from "./src/componrnt/Error";
+import Home from "./src/component/Home";
+import About from "./src/component/About";
+import Contact from "./src/component/Contact";
+import Error from "./src/component/Error";
 
 const AppConfig = createBrowserRouter([
   {
